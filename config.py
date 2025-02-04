@@ -23,10 +23,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002345746236"))
+LOG_GROUP_ID = -1002345746236
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "7009474165"))
+OWNER_ID = 7009474165
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION",  None)
+STRING1 = "BQFOk24AfFMffEBVpxmW1DSgIVUxanTgvN-J8m9XcT9lIjq14OUCZlxAvk3tm9Z2hn2Bj4MSDSw1Cy7ErDqdXpIUF3CtvwfPwQm1cEjsgOA_1HwHMcGdBhym3ZA51aBB0FeEgnfV0u3aKW5vzj6JMn3TeLfws5LVOa2wFahX25HUKabcsKQD6STWbQqGQ_Mq6EB1_lGU53ZKzXQZzvLBFqgW1HWbsgcTKAOFyD8ubDwc_u096vp-8bntWPekx3mIko-siaeQYYo-b2xnrZ4gzFVlrSx9cj1RuDjiVfG-MbgR1eaQH0vKeQN1BJZFIKaG7LQFui1i-_1roDhHF8fefEVxRMs5qwAAAAGhzBZ1AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
